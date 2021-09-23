@@ -1,0 +1,39 @@
+body{
+    /* background-color: brown; */
+}
+.navbar{
+    flex-direction: column;
+    font-size :13px;
+    margin-bottom: -111px;
+}
+.navbar img{
+    display: flex;
+}
+.navbar ul{
+    /* display: flex;
+     */
+     font-size: 5px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 9px;
+    flex-direction: column;
+}
+.fex{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.content{
+    flex-wrap: wrap;
+    margin:  auto;
+    flex-direction: column;
+}
+.main img{
+    margin: -12px;
+
+}
+.section{
+    height: 100px;
+}
