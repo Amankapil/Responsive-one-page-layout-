@@ -14,21 +14,36 @@ body{
      */
      font-size: 5px;
 }
-.main{
+.content{
     display: flex;
-    flex-wrap: wrap;
-    margin: 9px;
+    /* flex-wrap: wrap; */
     flex-direction: column;
+    margin: 9px;
 }
 .fex{
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
-.content{
-    flex-wrap: wrap;
-    margin:  auto;
+.title{
+    margin-top: 134px;
+}
+.main{
+     display: flex;
     flex-direction: column;
+    flex-wrap:wrap;
+    margin: 33px;
+    width: 62%;
+    /* width: 253px; */
+} 
+.pic
+{
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    /* margin:  auto; */
+    flex-direction:column;
 }
 .main img{
     margin: -12px;
